@@ -1,10 +1,8 @@
-# GLOBAL ANAEMIA PROJECT - EXTENDED
-![Homepage](images/presentation_title.png)
+# GLOBAL ANAEMIA PROJECT
 
 # Purpose
 
 This project creates a machine learning model to forecast global anaemia, and allows users to interact with Tableau dashboards.
-This project aims to extend the global anaemia project presented at UWA Data Analysis Bootcamp.
 Part of this project is to guide the user to some useful material to learn about anaemia and related patient blood management (https://ifpbm.org).
 
 
@@ -12,7 +10,10 @@ Part of this project is to guide the user to some useful material to learn about
 # Motivation
 
 Anaemia is a serious global public health problem that particularly affects young children and women. WHO estimates that 42% of children less than 5 years of age and 40% of pregnant women worldwide are anaemic. (https://www.who.int/health-topics/anaemia#tab=tab_1)
-![Homepage](images/screenshot_motivation.png)
+Most anaemias are due to nutritional deficiencies (i.e.: Iron, B12, Folate, etc)
+Opportunities exist to address it through prevention and treatment. Possibly this is the reason why the WHO set the goal of reducing anaemia globally by 50% by 2025. 
+Are countries on track to reach the goal?
+Based on 19 years of data, can we predict anaemia by 2025?
 
 
 # Data source
@@ -26,7 +27,7 @@ An ARIMA model was used to forecast time series. Based on the World Health Organ
 
 # Website hosting
 
-The demo website is hosted on Github Pages: http://ltrentino.github.io/
+The demo website is hosted on Github Pages: http://globalanaemia.github.io/
 The endpoint website contains vizualisations done in Tableau public, feeding from the output csv files which are saved in a AWS bin.
 
 
@@ -49,8 +50,6 @@ README.md                                   # all you need to know is in here
 ![Homepage](images/screenshot_anaemia_csv.png)
 ![Homepage](images/screenshot_prediction_model.png)
 ![Homepage](images/screenshot_model_validation.png)
-
-
 
 
 
